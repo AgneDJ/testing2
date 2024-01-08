@@ -4,8 +4,9 @@ from flask import Flask, session, render_template, request, flash, redirect
 from model import Game, connect_to_db
 
 app = Flask(__name__)
-app.secret_key = "SECRETSECRETSECRET"
+app.secret_key = "KEY"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
 
 @app.route("/")
 def homepage():
