@@ -24,7 +24,7 @@ def example_data():
     # write a function that creates a game and adds it to the database.
     # game_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     hiking_game = Game(
-        name='Hiking to the top of the mountain',
+        name='Hiking',
         description='IRL or Virtual lol'
     )
 
